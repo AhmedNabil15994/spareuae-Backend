@@ -1,0 +1,15 @@
+{
+    "name": "Brand",
+    "alias": "brand",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Brand\\Providers\\BrandServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "composer.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,153 @@
+<?php
+
+return [
+    "home" => [
+        'all' => 'All'  ,
+    ],
+    "layout" => [
+        "footer" => [
+            'description' => 'A site that displays classified ads, allowing customers to post ads for their cars',
+            'download_description' => 'Soon',
+            'apple_store' => 'Apple Store',
+            'google_play' => 'Google Play',
+            'sitemap' => 'Sitemap',
+            'home' => 'Home',
+            'contact_us' => 'Contact Us',
+            'gulf_cars' => 'Gulf Cars',
+            'incoming_cars' => 'Incoming Cars',
+            'car_shows' => 'Car Shows',
+            'contact_information' => "Contact Information",
+            'address' => 'Address',
+            'phone' => 'Phone',
+            'email' => 'Email',
+            'follow_us' => 'Follow Us On Instagram',
+            'rights' => 'All rights reserved to Spare Motors',
+            'whatsapp' => 'WhatsApp',
+        ] ,
+        "header" => [
+            'cars' => 'Cars',
+            'gulf' => 'Gulf',
+            'incoming' => 'Incoming',
+            'car_shows' => 'Car Shows',
+            'other_categories' => 'Categories',
+            'pricing' => 'Pricing',
+            'contact_us' => 'Contact Us',
+            'add' => 'Add',
+            'logout' => 'Logout',
+            'settings' => 'Settings',
+            'favorite' => 'Favorite',
+            'myAds' => 'My Ads',
+            'search' => 'Search...',
+            'search_title' => 'Search:',
+            'filter_results' => 'Filter Results',
+            'sort_by'   => 'Sort By',
+            'creation_date' => 'Creation Date',
+            'price' => 'Price',
+            'year' => 'Production Year',
+            'sorting' => 'Sort',
+            'asc' => 'Ascending',
+            'desc' => 'Descending',
+        ],
+    ],
+    "pages" => [
+        "home"=>[
+            'title' => 'Home',
+            'show_more' => 'Show More',
+            'first_heading' => 'Spare Website',
+            'first_description' => 'A site that displays classified ads, allowing customers to post ads for their cars',
+            'second_heading' => 'Featured Car Ads',
+            'second_description' => 'Find the best deals for you',
+            'third_heading' => 'Spare Parts Ads ',
+            'third_description' => 'Find the best deals for you',
+            'forth_heading' => 'Electronics Ads',
+            'forth_description' => 'Find the best deals for you',
+            'fifth_heading' => 'Real Estate Ads',
+            'fifth_description' => 'Find the best deals for you',
+            'sixth_heading' => 'Latest News',
+            'sixth_description' => 'Upcoming cars and events',
+            'seventh_heading' => 'Subscribe To Newsletter!',
+            'seventh_description' => 'Subscribe to get the latest news and information.',
+            'subscribe_now' => 'Subscribe Now',
+        ],
+        "car_lists" =>[
+            'title' => 'Cars',
+        ],
+        "car_details" => [
+            'title' => 'Vehicle Details',
+            'your_name' => 'Your Name',
+            'questionnaire' => 'Your Enquiry',
+            'send_to_seller' => 'Send To The Seller',
+            'seller' => 'Seller',
+        ],
+        "car_shows" =>[
+            'title' => 'Car Shows',
+        ],
+        "pricing" =>[
+            'title' => 'Pricing',
+            'choose_package' => 'Select Brand',
+        ],
+        "categories_details" => [
+            'title' => 'Details',
+        ],
+        'contact_us'  => [
+            'title'         => 'Contact Us',
+            "phone"      => "Phone Number",
+            "email"      => "E-Mail",
+            "whatsapp"   => "WhatsApp Number",
+            "description" => 'Feel Free To Contact Us',
+            'alerts'        => [
+                'send_message'  => 'Message Sent Successfully',
+            ],
+            'form'          => [
+                'btn'       => [
+                    'send'  => 'Send',
+                ],
+                'email'     => 'Email',
+                'message'   => 'Message',
+                'mobile'    => 'Mobile',
+                'username'  => 'Username',
+                'name'      => 'Name',
+            ],
+            'info'          => [
+                'email' => 'Email address',
+                'mobile'=> 'Mobile',
+                'title' => 'Informations',
+            ],
+            'mail'          => [
+                'header'    => 'We received new contact us mail',
+                'subject'   => 'Contact Us Mail',
+            ],
+            'suggest'          => [
+                'header'    => 'We received new Suggest  mail',
+                'subject'   => 'Suggest Mail',
+            ],
+
+            'title_2'       => 'Send message for us',
+            "make_call"=>"Make a Call" ,
+            "send_email" => "Send Email" ,
+            'validations'   => [
+                'email'     => [
+                    'email'     => 'Please enter correct email',
+                    'required'  => 'Please enter the email address',
+                ],
+                'message'   => [
+                    'min'       => 'Message must be more than 10 characters',
+                    'required'  => 'Please fill the message of contact us',
+                    'string'    => 'please enter only characters and numbers in message',
+                ],
+                'mobile'    => [
+                    'digits_between'    => 'You must enter mobile number with 8 digits',
+                    'numeric'           => 'Please enter correct mobile number',
+                    'required'          => 'Please enter mobile number',
+                ],
+                'username'  => [
+                    'min'       => 'Username must be more than 3 character',
+                    'required'  => 'Please enter username',
+                    'string'    => 'Please enter username with only characters and numbers',
+                ],
+            ],
+        ],
+    ],
+
+    'user_package_p' => 'User Subscription For Package: ',
+];
